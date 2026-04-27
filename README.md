@@ -1,1 +1,5 @@
 # RAG_Detail
+
+first we extract data and wrap it into document objects (text + metadata) 
+
+after doing data parsing we do chunking in chunking we convert the entire data into multiple chunk and why we do chunking the reason we do chunking because in embedding with respect to every LLm model there is a fixed context size for example lets say we have a pdf with complete 100 pages and we directly try to give it to a llm model for performing embedding it will not be possible it will say that you providing data more then context size and that will not be possible in order to convert the text into vector so limite of the context size we really need to give the data by applying chunking. because in every llm there is a fix context size. so after chunking we apply embedding and then we store to our vactor database. 
