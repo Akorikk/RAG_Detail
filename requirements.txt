@@ -1,6 +1,19 @@
  langchain 
  langchain-core
  langchain-community
+ langchain-google-genai
  pypdf
  pymupdf
- 
+ PyPDF
+ python-dotenv
+ pydantic
+ requests
+ tqdm
+ loguru
+ aiofiles
+ streamlit
+ fastapi
+ uvicorn
+ python-multipart
+ langchain-groq
+ pinecone
